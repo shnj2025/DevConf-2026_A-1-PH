@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+
+section{
+    padding: 80px 8%;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -80,4 +85,49 @@ header{
     font-size: 16px;
 
     
+}
+
+.top{
+    text-align: center;
+}
+
+.top h1{
+    font-size: 40px;
+    margin-bottom: 56px;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
+
+.card{
+    border: 1px solid #E5E7EB;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.category{
+    color: #2563EB;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 20px 8px;
+}
+
+
+.card h3{
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.card p:last-child{
+    padding: 0 20px 20px;
+    color: #575757;
 }
