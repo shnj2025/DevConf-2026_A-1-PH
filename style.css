@@ -35,3 +35,49 @@ nav button{
     border: none;
     border-radius: 5px;
 }
+
+header{
+     background-image:
+    linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.75) 0%,
+        rgba(0, 0, 0, 0.45) 40%,
+        rgba(0, 0, 0, 0) 100%
+    ),
+    url("./assets/banner.jpg");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content{
+    color: #FFFFFF;
+    text-align: center;
+    display: grid;
+    gap: 20px;
+}
+
+.header-content h1{
+    font-size: 60px;
+}
+
+.header-content p{
+    font-size: 18px;
+}
+
+.header-content button{
+    padding: 15px 45px;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    justify-self: center;
+    margin-top: 260px;
+    font-size: 16px;
+
+    
+}
