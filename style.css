@@ -248,3 +248,106 @@ header{
 .pricing-card li::marker{
     color: #2563EB;
 }
+
+
+
+
+/* Why Attend DevConf */
+
+.why-top{
+    text-align: center;
+}
+
+.why-top h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.why-top p{
+    color: gray;
+    margin-bottom: 0;
+}
+
+.why-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    margin-top: 48px;
+}
+
+
+.why-card{
+    text-align: center;
+    background-color: white;
+    border: 3px solid #2563EB;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.why-card img{
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.why-card h3{
+    margin-bottom: 15px;
+}
+
+.why-card p{
+    color: gray;
+    margin-bottom: 0;
+}
+
+
+
+
+
+footer{
+    background-color: #0D1B2A;
+    padding: 40px 8%;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+
+.social-links{
+    display: flex;
+    gap: 20px;
+}
+
+.social-links img{
+    width: 28px;
+    height: 28px;
+}
+
+footer hr{
+    border: 0.5px solid #888888;
+    margin-bottom: 25px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom p{
+    color: #888888;
+    margin-bottom: 0;
+}
+
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #888888;
+}
